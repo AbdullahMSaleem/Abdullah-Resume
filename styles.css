@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(149, 126, 231);
+    padding: 20px;
+
+}
+.right {
+    position: initial;
+    background-color: rgb(206, 162, 188);
+    padding: 20px;
+
+
+}
+
+.image, .Contact, .Skills, .Language, .title,
+.Summary, .Experience, .Education {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
+
+
+#toggleSkills {
+    display: ruby-base-container;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: rgb(17, 17, 17);
+    border: none;
+    cursor: pointer;
+}
+
+#toggleSkills:hover {
+    background-color: #0056b3;
+}
